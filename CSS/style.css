@@ -1,0 +1,11 @@
+/*img {
+  display: block;
+}*/
+
+#catPicture {
+ display: none;
+}
+
+ #nocatPicture {
+   display: none;
+ }

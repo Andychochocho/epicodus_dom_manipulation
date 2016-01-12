@@ -12,4 +12,10 @@ $(function(){
     $("ul#webpage").before("<li>moo</li>")
     $("ul#user").before("<li>moo</li>")
   });
+
+ $(".clickable").click(function() {
+   $("#catPicture").toggle();
+   $("#nocatPicture").toggle();
+ });
+
 });
